@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Si4012-C1001GT
+D Si4012-C1001GT, RF Transmitter 27  960MHz, FSK, OOK, 1.8  3.6 V 10-Pin MSOP
+K
+F http://docs-europe.electrocomponents.com/webdocs/1106/0900766b81106d73.pdf
+$ENDCMP
+#
+#End Doc Library
