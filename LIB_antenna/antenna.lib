@@ -1,0 +1,18 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# antenna_433Mhz
+#
+DEF antenna_433Mhz ANT 0 40 Y Y 1 F N
+F0 "ANT" 0 0 50 H V C CNN
+F1 "antenna_433Mhz" 50 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 0 -100 0 -500 N
+P 3 0 1 0 -200 -100 0 -300 200 -100 N
+X ~ 1 0 -600 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name Si4012-C1001GT)(type Legacy)(uri /Users/px/Data/ZenPCB/RapTorS/Design_KiCad/LIB_Si4012-C1001GT/KiCad/Si4012-C1001GT.lib)(options "")(descr ""))
+  (lib (name antenna)(type Legacy)(uri /Users/px/Data/ZenPCB/RapTorS/Design_KiCad/LIB_antenna/antenna.lib)(options "")(descr ""))
+  (lib (name E07-M1101S)(type Legacy)(uri /Users/px/Data/ZenPCB/RapTorS/Design_KiCad/E07-M1101S.lib)(options "")(descr ""))
+  (lib (name RapTorS-rescue)(type Legacy)(uri ${KIPRJMOD}/RapTorS-rescue.lib)(options "")(descr ""))
+)
