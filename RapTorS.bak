@@ -31,7 +31,7 @@ U 1 1 5B61E2AD
 P 1350 1450
 F 0 "J1" H 1405 1917 50  0000 C CNN
 F 1 "Molex 48037-2200" H 1405 1826 50  0000 C CNN
-F 2 "Capacitors_SMD:CP_Elec_4x4.5" H 1500 1400 50  0001 C CNN
+F 2 "PX_Molex:MOLEX_USB_48037-2200" H 1500 1400 50  0001 C CNN
 F 3 "" H 1500 1400 50  0001 C CNN
 	1    1350 1450
 	1    0    0    -1  
@@ -56,17 +56,6 @@ F 1 "100nF" H 3015 1505 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 2938 1400 50  0001 C CNN
 F 3 "" H 2900 1550 50  0001 C CNN
 	1    2900 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L RapTorS-rescue:C-device C5
-U 1 1 5B62F7D7
-P 1500 3800
-F 0 "C5" H 1615 3846 50  0000 L CNN
-F 1 "100nF" H 1615 3755 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 1538 3650 50  0001 C CNN
-F 3 "" H 1500 3800 50  0001 C CNN
-	1    1500 3800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -296,19 +285,6 @@ F 3 "" H 2300 4150 50  0001 C CNN
 	1    2300 4150
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR016
-U 1 1 5B6818B6
-P 1500 4150
-F 0 "#PWR016" H 1500 3900 50  0001 C CNN
-F 1 "GND" H 1505 3977 50  0000 C CNN
-F 2 "" H 1500 4150 50  0001 C CNN
-F 3 "" H 1500 4150 50  0001 C CNN
-	1    1500 4150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1500 4150 1500 3950
 Wire Wire Line
 	1500 3500 1900 3500
 Wire Wire Line
@@ -318,8 +294,6 @@ Wire Wire Line
 Connection ~ 1900 3500
 Wire Wire Line
 	1900 3500 2000 3500
-Wire Wire Line
-	1500 3500 1500 3650
 Wire Wire Line
 	2300 4150 2300 3900
 $Comp
@@ -335,7 +309,6 @@ F 3 "" H 1500 3400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1500 3500 1500 3400
-Connection ~ 1500 3500
 $Comp
 L RapTorS-rescue:C-device C6
 U 1 1 5B684462
@@ -680,7 +653,7 @@ U 1 1 5B7D9504
 P 5700 3600
 F 0 "J2" V 5700 3787 50  0000 L CNN
 F 1 "TestPoint" V 5745 3788 50  0001 L CNN
-F 2 "Connectors_TestPoints:Test_Point_Pad_1.5x1.5mm" H 5900 3600 50  0001 C CNN
+F 2 "Connectors_TestPoints:Test_Point_Pad_d1.5mm" H 5900 3600 50  0001 C CNN
 F 3 "~" H 5900 3600 50  0001 C CNN
 	1    5700 3600
 	0    1    1    0   
