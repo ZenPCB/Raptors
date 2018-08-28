@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name LIB_antenna)(type KiCad)(uri ${KIPRJMOD}/LIB_antenna)(options "")(descr ""))
   (lib (name E07-M1101S)(type KiCad)(uri /Users/px/Data/ZenPCB/RapTorS/Design_KiCad/E07-M1101S.pretty)(options "")(descr ""))
+  (lib (name PX_Molex)(type KiCad)(uri /Users/px/Data/ZenPCB/RapTorS/Design_KiCad/PX_Molex.pretty)(options "")(descr ""))
 )

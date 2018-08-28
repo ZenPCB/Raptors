@@ -1,4 +1,4 @@
-139680445650354
+141258808428134
 Battery_Holders
 Bulgin_BX0036_1xC
 
@@ -41523,6 +41523,13 @@ TO-263-7C
 0
 0
 0
+PX_Molex
+MOLEX_USB_48037-2200
+
+
+0
+6
+5
 Relays_SMD
 Relay_SPDT_AXICOM_HF3Series_50ohms_Pitch1.27mm
 
