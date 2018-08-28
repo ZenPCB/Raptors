@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 0)
+    (drawings 4)
     (tracks 0)
     (zones 0)
     (modules 22)
@@ -59,7 +59,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFF7F)
+    (visible_elements FEFFF77F)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -141,7 +141,7 @@
   )
 
   (module Capacitors_SMD:CP_Elec_4x4.5 (layer F.Cu) (tedit 58AA85E3) (tstamp 5B852BCF)
-    (at 52.727201 51.228801)
+    (at 44.3992 48.5394)
     (descr "SMT capacitor, aluminium electrolytic, 4x4.5")
     (path /5B63038C)
     (attr smd)
@@ -191,7 +191,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 58AA8463) (tstamp 5B852BB3)
-    (at 57.877201 51.463801)
+    (at 56.7182 55.9562)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5B684462)
@@ -227,7 +227,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 58AA8463) (tstamp 5B852BA2)
-    (at 61.427201 53.283801)
+    (at 50.6984 56.1848)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5B62F7D7)
@@ -262,8 +262,8 @@
     )
   )
 
-  (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 58AA8463) (tstamp 5B852B91)
-    (at 61.427201 51.463801)
+  (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 58AA8463) (tstamp 5B852DB3)
+    (at 57.6072 49.7332)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5B62FCC2)
@@ -299,7 +299,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 58AA8463) (tstamp 5B852B80)
-    (at 57.877201 53.363801)
+    (at 44.1452 56.2864)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5B62F72B)
@@ -335,7 +335,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 58AA8463) (tstamp 5B852B6F)
-    (at 69.627201 49.713801)
+    (at 63.5508 49.9872)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5B6302A0)
@@ -371,7 +371,7 @@
   )
 
   (module Connectors:Pin_d1.0mm_L10.0mm (layer F.Cu) (tedit 59B3E075) (tstamp 5B852B5E)
-    (at 78.797201 43.418801)
+    (at 62.2554 25.6286)
     (descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
     (tags "solder Pin_ press fit")
     (path /5B61E0D6)
@@ -398,7 +398,7 @@
   )
 
   (module Connectors_TestPoints:Test_Point_Pad_1.5x1.5mm (layer F.Cu) (tedit 59BE7FB7) (tstamp 5B852B54)
-    (at 75.827201 49.648801)
+    (at 69.6722 43.7896)
     (descr "SMD rectangular pad as test Point, square 1.5mm side length")
     (tags "test point SMD pad rectangle square")
     (path /5B7D9504)
@@ -425,7 +425,7 @@
   )
 
   (module Connectors_TestPoints:Test_Point_Pad_d1.5mm (layer F.Cu) (tedit 59B53D7B) (tstamp 5B852B46)
-    (at 81.597201 43.168801)
+    (at 70.0532 26.7462)
     (descr "SMD pad as test Point, diameter 1.5mm")
     (tags "test point SMD pad")
     (path /5B7D96DD)
@@ -446,7 +446,7 @@
   )
 
   (module Connectors_TestPoints:Test_Point_Pad_d1.5mm (layer F.Cu) (tedit 59B53D7B) (tstamp 5B852B3E)
-    (at 78.447201 46.218801)
+    (at 78.4098 32.5882)
     (descr "SMD pad as test Point, diameter 1.5mm")
     (tags "test point SMD pad")
     (path /5B7D969E)
@@ -467,7 +467,7 @@
   )
 
   (module Connectors_TestPoints:Test_Point_Pad_d1.5mm (layer F.Cu) (tedit 59B53D7B) (tstamp 5B852B36)
-    (at 75.827201 47.098801)
+    (at 70.0532 32.7152)
     (descr "SMD pad as test Point, diameter 1.5mm")
     (tags "test point SMD pad")
     (path /5B7D9654)
@@ -488,7 +488,7 @@
   )
 
   (module Connectors_TestPoints:Test_Point_Pad_d1.5mm (layer F.Cu) (tedit 59B53D7B) (tstamp 5B852B2E)
-    (at 72.277201 51.898801)
+    (at 62.2046 32.9692)
     (descr "SMD pad as test Point, diameter 1.5mm")
     (tags "test point SMD pad")
     (path /5B7D95BB)
@@ -509,7 +509,7 @@
   )
 
   (module E07-M1101S:E07-M1101S (layer F.Cu) (tedit 5B7DBD01) (tstamp 5B852B26)
-    (at 49.6022 35.7338)
+    (at 24.8412 2.794)
     (path /5B7B9984)
     (fp_text reference U3 (at 11.811 4.445) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -544,7 +544,7 @@
   )
 
   (module Housings_DFN_QFN:QFN-16-1EP_4x4mm_Pitch0.65mm (layer F.Cu) (tedit 54130A77) (tstamp 5B852B14)
-    (at 71.347201 44.568801)
+    (at 51.9938 35.7124)
     (descr "16-Lead Plastic Quad Flat, No Lead Package (ML) - 4x4x0.9 mm Body [QFN]; (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "QFN 0.65")
     (path /5B5A1512)
@@ -616,8 +616,8 @@
     )
   )
 
-  (module Inductors_SMD:L_0805 (layer F.Cu) (tedit 58307B54) (tstamp 5B852AEC)
-    (at 75.647201 42.918801)
+  (module Inductors_SMD:L_0805 (layer F.Cu) (tedit 58307B54) (tstamp 5B85311F)
+    (at 69.1744 38.2016)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5B62FF31)
@@ -653,7 +653,7 @@
   )
 
   (module LEDs:LED_0805 (layer F.Cu) (tedit 59959803) (tstamp 5B852ADB)
-    (at 62.027201 49.678801)
+    (at 51.605 44.5262)
     (descr "LED 0805 smd package")
     (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /5B7DCADD)
@@ -694,7 +694,7 @@
   )
 
   (module LEDs:LED_0805 (layer F.Cu) (tedit 59959803) (tstamp 5B852AC5)
-    (at 58.077201 49.678801)
+    (at 51.0794 50.038)
     (descr "LED 0805 smd package")
     (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /5B61E4BB)
@@ -735,29 +735,29 @@
   )
 
   (module PX_Molex:MOLEX_USB_48037-2200 (layer F.Cu) (tedit 5B852468) (tstamp 5B852AAF)
-    (at 75.1722 39.0838)
+    (at 2.75 9.5 270)
     (path /5B61E2AD)
     (attr smd)
-    (fp_text reference J1 (at 10.668 -7.62) (layer F.SilkS)
+    (fp_text reference J1 (at 10.668 -7.62 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "Molex 48037-2200" (at 3.556 -5.588) (layer F.Fab)
+    (fp_text value "Molex 48037-2200" (at 3.556 -5.588 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -6 2.75) (end 6 2.75) (layer F.Fab) (width 0.12))
-    (pad 2 smd rect (at 1 -2.6) (size 1.2 2) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1 -2.6 270) (size 1.2 2) (layers F.Cu F.Paste F.Mask)
       (net 10 D-))
-    (pad 1 smd rect (at 3.5 -2.6) (size 1.2 2) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at 3.5 -2.6 270) (size 1.2 2) (layers F.Cu F.Paste F.Mask)
       (net 11 "Net-(C1-Pad1)"))
-    (pad 3 smd rect (at -1 -2.6) (size 1.2 2) (layers F.Cu F.Paste F.Mask)
+    (pad 3 smd rect (at -1 -2.6 270) (size 1.2 2) (layers F.Cu F.Paste F.Mask)
       (net 12 D+))
-    (pad 4 smd rect (at -3.5 -2.6) (size 1.2 2) (layers F.Cu F.Paste F.Mask)
+    (pad 4 smd rect (at -3.5 -2.6 270) (size 1.2 2) (layers F.Cu F.Paste F.Mask)
       (net 4 GND))
-    (pad "" np_thru_hole circle (at 2.25 0) (size 1.1 1.1) (drill 1.1) (layers *.Cu *.Mask))
-    (pad "" np_thru_hole circle (at -2.25 0) (size 1.1 1.1) (drill 1.1) (layers *.Cu *.Mask))
-    (pad 5 thru_hole roundrect (at -5.85 0) (size 1.3 3.2) (drill oval 0.7 2.5) (layers *.Cu *.Mask) (roundrect_rratio 0.5)
+    (pad "" np_thru_hole circle (at 2.25 0 270) (size 1.1 1.1) (drill 1.1) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at -2.25 0 270) (size 1.1 1.1) (drill 1.1) (layers *.Cu *.Mask))
+    (pad 5 thru_hole roundrect (at -5.85 0 270) (size 1.3 3.2) (drill oval 0.7 2.5) (layers *.Cu *.Mask) (roundrect_rratio 0.5)
       (net 5 "Net-(J1-Pad5)"))
-    (pad 5 thru_hole roundrect (at 5.85 0) (size 1.3 3.2) (drill oval 0.7 2.5) (layers *.Cu *.Mask) (roundrect_rratio 0.5)
+    (pad 5 thru_hole roundrect (at 5.85 0 270) (size 1.3 3.2) (drill oval 0.7 2.5) (layers *.Cu *.Mask) (roundrect_rratio 0.5)
       (net 5 "Net-(J1-Pad5)"))
     (model "${KIPRJMOD}/3d_models/Molex 480372-200.step"
       (offset (xyz 0 -8.300000000000001 -0.2))
@@ -766,8 +766,8 @@
     )
   )
 
-  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 58E0A804) (tstamp 5B852AA2)
-    (at 72.977201 48.183801)
+  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 58E0A804) (tstamp 5B85302E)
+    (at 63.5356 44.0436)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5B7DCAE4)
@@ -803,7 +803,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 58E0A804) (tstamp 5B852A91)
-    (at 75.597201 44.883801)
+    (at 62.9514 38.0746)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5B7E08B9)
@@ -839,7 +839,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 58E0A804) (tstamp 5B852A80)
-    (at 69.427201 51.563801)
+    (at 57.6072 44.2468)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5B62F9B3)
@@ -874,8 +874,8 @@
     )
   )
 
-  (module TO_SOT_Packages_SMD:SOT-23-5 (layer F.Cu) (tedit 58CE4E7E) (tstamp 5B852A6F)
-    (at 65.927201 50.628801)
+  (module TO_SOT_Packages_SMD:SOT-23-5 (layer F.Cu) (tedit 58CE4E7E) (tstamp 5B852EC8)
+    (at 64.008 57.2262)
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
     (path /5B6396D9)
@@ -916,5 +916,10 @@
       (rotate (xyz 0 0 0))
     )
   )
+
+  (gr_line (start 0 0) (end 0 19) (layer Edge.Cuts) (width 0.12))
+  (gr_line (start 45 19) (end 0 19) (layer Edge.Cuts) (width 0.12))
+  (gr_line (start 45 0) (end 45 19) (layer Edge.Cuts) (width 0.12))
+  (gr_line (start 0 0) (end 45 0) (layer Edge.Cuts) (width 0.12))
 
 )
