@@ -103,17 +103,6 @@ F 3 "" H 2150 1550 50  0001 C CNN
 	1    2150 1550
 	1    0    0    -1  
 $EndComp
-$Comp
-L RapTorS-rescue:CP1-device C3
-U 1 1 5B63038C
-P 3550 1550
-F 0 "C3" H 3435 1596 50  0000 R CNN
-F 1 "4.7uF" H 3435 1505 50  0000 R CNN
-F 2 "Capacitors_SMD:CP_Elec_4x4.5" H 3550 1550 50  0001 C CNN
-F 3 "" H 3550 1550 50  0001 C CNN
-	1    3550 1550
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	1650 1250 2150 1250
 Wire Wire Line
@@ -758,4 +747,15 @@ Wire Notes Line
 	1000 800  3900 800 
 Text Notes 1050 4450 0    50   ~ 0
 No capacitor in input, because there is already C2
+$Comp
+L RapTorS-rescue:C-device C3
+U 1 1 5B887802
+P 3550 1550
+F 0 "C3" H 3665 1596 50  0000 L CNN
+F 1 "4.7uF" H 3665 1505 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 3588 1400 50  0001 C CNN
+F 3 "" H 3550 1550 50  0001 C CNN
+	1    3550 1550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
