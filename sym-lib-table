@@ -3,4 +3,5 @@
   (lib (name antenna)(type Legacy)(uri /Users/px/Data/ZenPCB/RapTorS/Design_KiCad/LIB_antenna/antenna.lib)(options "")(descr ""))
   (lib (name E07-M1101S)(type Legacy)(uri /Users/px/Data/ZenPCB/RapTorS/Design_KiCad/E07-M1101S.lib)(options "")(descr ""))
   (lib (name RapTorS-rescue)(type Legacy)(uri ${KIPRJMOD}/RapTorS-rescue.lib)(options "")(descr ""))
+  (lib (name EFM32HG308F64G-A-QFN24)(type Legacy)(uri /Users/px/Data/ZenPCB/RapTorS/Design_KiCad/EFM32HG308F64G-A-QFN24/KiCad/EFM32HG308F64G-A-QFN24.lib)(options "")(descr ""))
 )
