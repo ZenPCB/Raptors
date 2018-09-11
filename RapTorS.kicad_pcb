@@ -541,7 +541,7 @@
       (net 4 "Net-(J1-Pad5)"))
     (pad 2 smd rect (at 0.75 0) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)
       (net 3 GND))
-    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
