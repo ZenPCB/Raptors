@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L antenna:antenna_433Mhz ANT1
+L RapTorS-rescue:antenna_433Mhz-antenna ANT1
 U 1 1 5B61E0D6
 P 5650 5900
 F 0 "ANT1" H 5878 5590 50  0000 L CNN
@@ -353,7 +353,7 @@ Wire Notes Line
 Text Notes 10500 4750 0    50   ~ 0
 CPU
 $Comp
-L E07-M1101S:E07-M1101S U3
+L RapTorS-rescue:E07-M1101S-E07-M1101S U3
 U 1 1 5B7B9984
 P 4750 6450
 F 0 "U3" H 4750 6575 50  0000 C CNN
@@ -416,7 +416,7 @@ Text GLabel 4150 7150 0    50   Input ~ 0
 MOSI
 Wire Wire Line
 	4150 7150 4200 7150
-Text GLabel 7000 3050 0    50   Output ~ 0
+Text GLabel 7000 3150 0    50   Output ~ 0
 CSN
 Text GLabel 4150 6850 0    50   Input ~ 0
 CSN
@@ -426,7 +426,7 @@ Text GLabel 4150 6700 0    50   Output ~ 0
 GDO0
 Wire Wire Line
 	4150 6700 4200 6700
-Text GLabel 7000 3150 0    50   Input ~ 0
+Text GLabel 7650 3900 3    50   Input ~ 0
 GDO0
 Text GLabel 5350 6700 2    50   Output ~ 0
 GDO2
@@ -494,7 +494,7 @@ U 1 1 5B7D9504
 P 1600 6550
 F 0 "J2" V 1600 6737 50  0000 L CNN
 F 1 "TestPoint" V 1645 6738 50  0001 L CNN
-F 2 "Connectors_TestPoints:Test_Point_Pad_d1.0mm" H 1800 6550 50  0001 C CNN
+F 2 "Connectors_TestPoints:Test_Point_Pad_d1.5mm" H 1800 6550 50  0001 C CNN
 F 3 "~" H 1800 6550 50  0001 C CNN
 	1    1600 6550
 	0    1    1    0   
@@ -505,7 +505,7 @@ U 1 1 5B7D95BB
 P 1600 6750
 F 0 "J3" V 1600 6937 50  0000 L CNN
 F 1 "TestPoint" V 1645 6938 50  0001 L CNN
-F 2 "Connectors_TestPoints:Test_Point_Pad_d1.0mm" H 1800 6750 50  0001 C CNN
+F 2 "Connectors_TestPoints:Test_Point_Pad_d1.5mm" H 1800 6750 50  0001 C CNN
 F 3 "~" H 1800 6750 50  0001 C CNN
 	1    1600 6750
 	0    1    1    0   
@@ -516,7 +516,7 @@ U 1 1 5B7D9654
 P 1600 6950
 F 0 "J4" V 1600 7137 50  0000 L CNN
 F 1 "TestPoint" V 1645 7138 50  0001 L CNN
-F 2 "Connectors_TestPoints:Test_Point_Pad_d1.0mm" H 1800 6950 50  0001 C CNN
+F 2 "Connectors_TestPoints:Test_Point_Pad_d1.5mm" H 1800 6950 50  0001 C CNN
 F 3 "~" H 1800 6950 50  0001 C CNN
 	1    1600 6950
 	0    1    1    0   
@@ -527,7 +527,7 @@ U 1 1 5B7D969E
 P 1600 7150
 F 0 "J5" V 1600 7337 50  0000 L CNN
 F 1 "TestPoint" V 1645 7338 50  0001 L CNN
-F 2 "Connectors_TestPoints:Test_Point_Pad_d1.0mm" H 1800 7150 50  0001 C CNN
+F 2 "Connectors_TestPoints:Test_Point_Pad_d1.5mm" H 1800 7150 50  0001 C CNN
 F 3 "~" H 1800 7150 50  0001 C CNN
 	1    1600 7150
 	0    1    1    0   
@@ -538,7 +538,7 @@ U 1 1 5B7D96DD
 P 1600 7350
 F 0 "J6" V 1600 7537 50  0000 L CNN
 F 1 "TestPoint" V 1645 7538 50  0001 L CNN
-F 2 "Connectors_TestPoints:Test_Point_Pad_d1.0mm" H 1800 7350 50  0001 C CNN
+F 2 "Connectors_TestPoints:Test_Point_Pad_d1.5mm" H 1800 7350 50  0001 C CNN
 F 3 "~" H 1800 7350 50  0001 C CNN
 	1    1600 7350
 	0    1    1    0   
@@ -609,7 +609,7 @@ F 3 "" H 3550 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EFM32HG308F64G-A-QFN24:EFM32HG308F64G-A-QFN24 IC1
+L RapTorS-rescue:EFM32HG308F64G-A-QFN24-EFM32HG308F64G-A-QFN24 IC1
 U 1 1 5B969C21
 P 7050 2650
 F 0 "IC1" H 8400 3350 50  0000 L CNN
@@ -837,7 +837,7 @@ Text GLabel 7000 2850 0    50   Output ~ 0
 MOSI
 Wire Wire Line
 	7050 2850 7000 2850
-Text GLabel 7000 2950 0    50   Input ~ 0
+Text GLabel 7000 3050 0    50   Output ~ 0
 SCK
 Wire Wire Line
 	7050 2950 7000 2950

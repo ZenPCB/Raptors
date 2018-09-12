@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L antenna:antenna_433Mhz ANT1
+L RapTorS-rescue:antenna_433Mhz-antenna ANT1
 U 1 1 5B61E0D6
 P 5650 5900
 F 0 "ANT1" H 5878 5590 50  0000 L CNN
@@ -353,7 +353,7 @@ Wire Notes Line
 Text Notes 10500 4750 0    50   ~ 0
 CPU
 $Comp
-L E07-M1101S:E07-M1101S U3
+L RapTorS-rescue:E07-M1101S-E07-M1101S U3
 U 1 1 5B7B9984
 P 4750 6450
 F 0 "U3" H 4750 6575 50  0000 C CNN
@@ -416,7 +416,7 @@ Text GLabel 4150 7150 0    50   Input ~ 0
 MOSI
 Wire Wire Line
 	4150 7150 4200 7150
-Text GLabel 7000 3050 0    50   Output ~ 0
+Text GLabel 7000 3150 0    50   Output ~ 0
 CSN
 Text GLabel 4150 6850 0    50   Input ~ 0
 CSN
@@ -426,7 +426,7 @@ Text GLabel 4150 6700 0    50   Output ~ 0
 GDO0
 Wire Wire Line
 	4150 6700 4200 6700
-Text GLabel 7000 3150 0    50   Input ~ 0
+Text GLabel 7650 3900 3    50   Input ~ 0
 GDO0
 Text GLabel 5350 6700 2    50   Output ~ 0
 GDO2
@@ -609,7 +609,7 @@ F 3 "" H 3550 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EFM32HG308F64G-A-QFN24:EFM32HG308F64G-A-QFN24 IC1
+L RapTorS-rescue:EFM32HG308F64G-A-QFN24-EFM32HG308F64G-A-QFN24 IC1
 U 1 1 5B969C21
 P 7050 2650
 F 0 "IC1" H 8400 3350 50  0000 L CNN
@@ -819,8 +819,6 @@ Wire Wire Line
 Wire Wire Line
 	7650 3900 7650 3850
 Wire Wire Line
-	7850 3900 7850 3850
-Wire Wire Line
 	7950 3900 7950 3850
 $Comp
 L Graphic:Logo_Open_Hardware_Small #LOGO1
@@ -837,10 +835,8 @@ Text GLabel 7000 2850 0    50   Output ~ 0
 MOSI
 Wire Wire Line
 	7050 2850 7000 2850
-Text GLabel 7000 2950 0    50   Input ~ 0
+Text GLabel 7000 3050 0    50   Output ~ 0
 SCK
-Wire Wire Line
-	7050 2950 7000 2950
 Wire Wire Line
 	7650 1850 7650 1800
 Wire Wire Line
@@ -937,4 +933,7 @@ Wire Wire Line
 	6300 3300 6300 3200
 Wire Wire Line
 	7750 1800 7750 1850
+NoConn ~ 7850 3850
+NoConn ~ 7050 2950
+NoConn ~ 7950 1850
 $EndSCHEMATC
