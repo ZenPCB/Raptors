@@ -1,15 +1,16 @@
-Block;Footprint;Annotation;Description;Ref.;Farnell ref.;Quantity
-USB;;J1;USB Connector;Molex 48037-2200;2313729;1
-USB;0603;R1;1M resistor;generic;2861882;1
-USB;0603;C1;10nF ceramic capacitor;generic;2896417;1
-USB;0603;L1;33R ferrite bead;generic;1515742;1
-USB;0603;C2, C4, C6;100nF ceramic capacitor;generic;2429362;3
-USB;0603;C3;4.7uF ceramic capacitor;;9402128;1
-PSU;SOT-23;U2;3.3V LDO;TLV71333PDBVR;2463932;1
-LEDS;0603;R2;TBD;;TBD;1
-LEDS;0805;D1;yellow LED;generic;1581241;1
-RADIO;;U3;radio module;E07-M1101S;;1
-RADIO;;ANT1;Antenna;TBD;TBD;1
-CPU;QFN24;IC1;ARM Cortex M0;EFM32HG308;2475983;1
-CPU;0603;C5, C7, C8, C9;1uF ceramic capacitor;generic;2896410;4
-CPU;0603;R4, R5;15R resistor;generic;1652841;2
+Block;Footprint;Annotation;Description;Ref.;Farnell ref.;RS ref.;Mouser ref.;Quantity
+USB;-;J1;USB Connector;Molex 48037-2200;2313729;800-6772;563-USB-7201-C;1
+USB;0603;R1;1M resistor;generic;2861882;;667-ERJ-PA3J105V;1
+USB;0603;C1;10nF ceramic capacitor;generic;2896417;;710-885012206014;1
+USB;0603;L1;33R ferrite bead;generic;1515742;;963-BK1608HS330-T;1
+USB;0603;C2, C4, C6;100nF ceramic capacitor;generic;2429362;;710-885012206071;3
+USB;0603;C3;4.7uF ceramic capacitor;;9402128;;963-JMK107BJ475KA-T;1
+PSU;SOT-23;U2;3.3V LDO;TLV71333PDBVR;2463932;;595-TLV71333PDBVR;1
+LEDS;0603;R2;TBD;;TBD;TBD;TBD;1
+LEDS;0805;D1;yellow LED;generic;1581241;;710-150080YS75000;1
+RADIO;-;U3;radio module;E07-M1101S;-;;-;1
+RADIO;wire;ANT1;Antenna;TBD;TBD;TBD;TBD;1
+CPU;QFN24;IC1;ARM Cortex M0;EFM32HG308;2475983;872-7100;634-HG308F64GBQFN24 ;1
+CPU;0603;C5, C7, C8, C9;1uF ceramic capacitor;generic;2896410;;710-885012106017;4
+CPU;0603;R4, R5;15R resistor;generic;1652841;;755-ESR03EZPJ150;2
+Enclosure;-;;;;2473229;;563-USB-7201-C;1
