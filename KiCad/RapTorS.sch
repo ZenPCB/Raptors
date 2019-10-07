@@ -15,17 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L RapTorS-rescue:antenna_433Mhz-antenna ANT1
-U 1 1 5B61E0D6
-P 5650 4850
-F 0 "ANT1" H 5878 4540 50  0000 L CNN
-F 1 "antenna_433Mhz" H 5878 4449 50  0000 L CNN
-F 2 "Connectors:Pin_d1.0mm_L10.0mm" H 5650 4850 50  0001 C CNN
-F 3 "" H 5650 4850 50  0001 C CNN
-	1    5650 4850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:USB_A J1
 U 1 1 5B61E2AD
 P 1350 1450
@@ -342,10 +331,6 @@ F 3 "" H 4750 5400 50  0001 C CNN
 	1    4750 5400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5300 5500 5650 5500
-Wire Wire Line
-	5650 5500 5650 5450
 $Comp
 L power:GND #PWR020
 U 1 1 5B7BD2F4
@@ -961,7 +946,7 @@ L Switch:SW_Push SW1
 U 1 1 5D9E3735
 P 7800 5400
 F 0 "SW1" V 7754 5548 50  0000 L CNN
-F 1 "SW_Push" V 7845 5548 50  0000 L CNN
+F 1 "*not mounted" V 7845 5548 50  0000 L CNN
 F 2 "" H 7800 5600 50  0001 C CNN
 F 3 "~" H 7800 5600 50  0001 C CNN
 	1    7800 5400
@@ -996,4 +981,30 @@ Wire Notes Line
 NoConn ~ 7950 3750
 Text Notes 7100 6150 0    50   ~ 0
 EFM32 input is configured\nwith built-in pull-down
+$Comp
+L Connector:Conn_Coaxial J7
+U 1 1 5DA1EEE0
+P 5950 5500
+F 0 "J7" H 6050 5475 50  0000 L CNN
+F 1 "Conn_Coaxial" H 6050 5384 50  0000 L CNN
+F 2 "" H 5950 5500 50  0001 C CNN
+F 3 " ~" H 5950 5500 50  0001 C CNN
+	1    5950 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR021
+U 1 1 5DA2324C
+P 5950 5800
+F 0 "#PWR021" H 5950 5550 50  0001 C CNN
+F 1 "GND" H 5955 5627 50  0000 C CNN
+F 2 "" H 5950 5800 50  0001 C CNN
+F 3 "" H 5950 5800 50  0001 C CNN
+	1    5950 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 5700 5950 5800
+Wire Wire Line
+	5300 5500 5750 5500
 $EndSCHEMATC
